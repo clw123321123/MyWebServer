@@ -1,0 +1,81 @@
+2022-06-02 13:18:41.086621 [info] : ========== Server init ==========
+2022-06-02 13:18:41.086632 [info] : Port:80, OpenLinger: false
+2022-06-02 13:18:41.086636 [info] : Listen Mode: ET, OpenConn Mode: ET
+2022-06-02 13:18:41.086639 [info] : LogSys level: 0
+2022-06-02 13:18:41.086642 [info] : srcDir: /root/Job/MyWebServer/resources/
+2022-06-02 13:18:41.086656 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2022-06-02 13:18:41.086660 [info] : ========== Server start ==========
+2022-06-02 13:18:44.233306 [info] : Client[19](0.0.0.0:0) in, userCount:1
+2022-06-02 13:18:44.233418 [info] : Client[19] in!
+2022-06-02 13:18:44.236717 [info] : Client[20](0.0.0.0:0) in, userCount:2
+2022-06-02 13:18:44.236748 [info] : Client[20] in!
+2022-06-02 13:18:44.267061 [debug]: [GET], [/index.html], [1.1]
+2022-06-02 13:18:44.267123 [debug]: /index.html
+2022-06-02 13:18:44.267163 [debug]: file path /root/Job/MyWebServer/resources//index.html
+2022-06-02 13:18:44.267184 [debug]: filesize:968, 2  to 1089
+2022-06-02 13:18:44.436971 [debug]: [GET], [/favicon.ico], [1.1]
+2022-06-02 13:18:44.437028 [debug]: /favicon.ico
+2022-06-02 13:18:44.437069 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-06-02 13:18:44.437086 [debug]: filesize:971, 2  to 1099
+2022-06-02 13:18:49.717080 [debug]: [GET], [/index.html], [1.1]
+2022-06-02 13:18:49.717146 [debug]: /index.html
+2022-06-02 13:18:49.717184 [debug]: file path /root/Job/MyWebServer/resources//index.html
+2022-06-02 13:18:49.717196 [debug]: filesize:968, 2  to 1089
+2022-06-02 13:18:51.207183 [debug]: [GET], [/index.html], [1.1]
+2022-06-02 13:18:51.207241 [debug]: /index.html
+2022-06-02 13:18:51.207279 [debug]: file path /root/Job/MyWebServer/resources//index.html
+2022-06-02 13:18:51.207294 [debug]: filesize:968, 2  to 1089
+2022-06-02 13:18:53.248218 [debug]: [GET], [/index.html], [1.1]
+2022-06-02 13:18:53.248278 [debug]: /index.html
+2022-06-02 13:18:53.248319 [debug]: file path /root/Job/MyWebServer/resources//index.html
+2022-06-02 13:18:53.248334 [debug]: filesize:968, 2  to 1089
+2022-06-02 13:18:56.167920 [debug]: [GET], [/register.html], [1.1]
+2022-06-02 13:18:56.167977 [debug]: /register.html
+2022-06-02 13:18:56.168015 [debug]: file path /root/Job/MyWebServer/resources//register.html
+2022-06-02 13:18:56.168037 [debug]: filesize:1559, 2  to 1681
+2022-06-02 13:18:57.907270 [debug]: [GET], [/login.html], [1.1]
+2022-06-02 13:18:57.907325 [debug]: /login.html
+2022-06-02 13:18:57.907399 [debug]: file path /root/Job/MyWebServer/resources//login.html
+2022-06-02 13:18:57.907422 [debug]: filesize:1554, 2  to 1676
+2022-06-02 13:18:59.628514 [debug]: [GET], [/video.html], [1.1]
+2022-06-02 13:18:59.628574 [debug]: /video.html
+2022-06-02 13:18:59.628615 [debug]: file path /root/Job/MyWebServer/resources//video.html
+2022-06-02 13:18:59.628634 [debug]: filesize:1239, 2  to 1361
+2022-06-02 13:18:59.823309 [debug]: [GET], [/video/xxx.mp4], [1.1]
+2022-06-02 13:18:59.823363 [debug]: /video/xxx.mp4
+2022-06-02 13:18:59.823420 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-06-02 13:18:59.823437 [debug]: filesize:971, 2  to 1099
+2022-06-02 13:19:01.047192 [debug]: [GET], [/picture.html], [1.1]
+2022-06-02 13:19:01.047253 [debug]: /picture.html
+2022-06-02 13:19:01.047297 [debug]: file path /root/Job/MyWebServer/resources//picture.html
+2022-06-02 13:19:01.047320 [debug]: filesize:1849, 2  to 1971
+2022-06-02 13:19:01.153804 [debug]: [GET], [/images/instagram-image2.jpg], [1.1]
+2022-06-02 13:19:01.153859 [debug]: /images/instagram-image2.jpg
+2022-06-02 13:19:01.153884 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-06-02 13:19:01.153906 [debug]: filesize:971, 2  to 1099
+2022-06-02 13:19:01.156997 [debug]: [GET], [/images/instagram-image1.jpg], [1.1]
+2022-06-02 13:19:01.157026 [debug]: /images/instagram-image1.jpg
+2022-06-02 13:19:01.157067 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-06-02 13:19:01.157079 [debug]: filesize:971, 2  to 1099
+2022-06-02 13:19:01.244703 [debug]: [GET], [/images/instagram-image5.jpg], [1.1]
+2022-06-02 13:19:01.244776 [debug]: /images/instagram-image5.jpg
+2022-06-02 13:19:01.244821 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-06-02 13:19:01.244839 [debug]: filesize:971, 2  to 1099
+2022-06-02 13:19:01.247999 [debug]: [GET], [/images/instagram-image3.jpg], [1.1]
+2022-06-02 13:19:01.248045 [debug]: /images/instagram-image3.jpg
+2022-06-02 13:19:01.248075 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-06-02 13:19:01.248087 [debug]: filesize:971, 2  to 1099
+2022-06-02 13:19:01.272471 [info] : Client[21](0.0.0.0:0) in, userCount:3
+2022-06-02 13:19:01.272531 [info] : Client[21] in!
+2022-06-02 13:19:01.272858 [info] : Client[22](0.0.0.0:0) in, userCount:4
+2022-06-02 13:19:01.272878 [info] : Client[22] in!
+2022-06-02 13:19:01.273183 [info] : Client[23](0.0.0.0:0) in, userCount:5
+2022-06-02 13:19:01.273203 [info] : Client[23] in!
+2022-06-02 13:19:01.283789 [debug]: [GET], [/images/instagram-image4.jpg], [1.1]
+2022-06-02 13:19:01.283823 [debug]: /images/instagram-image4.jpg
+2022-06-02 13:19:01.283846 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-06-02 13:19:01.283863 [debug]: filesize:971, 2  to 1099
+2022-06-02 13:19:02.488544 [debug]: [GET], [/index.html], [1.1]
+2022-06-02 13:19:02.488604 [debug]: /index.html
+2022-06-02 13:19:02.488646 [debug]: file path /root/Job/MyWebServer/resources//index.html
+2022-06-02 13:19:02.488666 [debug]: filesize:968, 2  to 1089

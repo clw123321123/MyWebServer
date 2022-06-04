@@ -1,0 +1,162 @@
+2022-05-31 17:53:19.767257 [info] : ========== Server init ==========
+2022-05-31 17:53:19.767271 [info] : Port:80, OpenLinger: false
+2022-05-31 17:53:19.767275 [info] : Listen Mode: ET, OpenConn Mode: ET
+2022-05-31 17:53:19.767278 [info] : LogSys level: 0
+2022-05-31 17:53:19.767281 [info] : srcDir: /root/Job/MyWebServer/resources/
+2022-05-31 17:53:19.767284 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2022-05-31 17:53:19.767287 [info] : ========== Server start ==========
+2022-05-31 17:53:30.642564 [info] : Client[19](0.0.0.0:0) in, userCount:1
+2022-05-31 17:53:30.642660 [info] : Client[19] in!
+2022-05-31 17:53:30.645383 [info] : Client[20](0.0.0.0:0) in, userCount:2
+2022-05-31 17:53:30.645411 [info] : Client[20] in!
+2022-05-31 17:53:30.653174 [debug]: [GET], [/index.html], [1.1]
+2022-05-31 17:53:30.653204 [debug]: /index.html
+2022-05-31 17:53:30.653238 [debug]: filesize:0, 1  to 254
+2022-05-31 17:53:30.823319 [debug]: [GET], [/favicon.ico], [1.1]
+2022-05-31 17:53:30.823393 [debug]: /favicon.ico
+2022-05-31 17:53:30.823420 [debug]: filesize:0, 1  to 254
+2022-05-31 17:53:35.692653 [info] : Client[19] quit!
+2022-05-31 17:53:35.692771 [info] : Client[19](0.0.0.0:0) quit, UserCount:1
+2022-05-31 20:54:11.323164 [info] : ========== Server init ==========
+2022-05-31 20:54:11.323173 [info] : Port:80, OpenLinger: false
+2022-05-31 20:54:11.323176 [info] : Listen Mode: ET, OpenConn Mode: ET
+2022-05-31 20:54:11.323179 [info] : LogSys level: 0
+2022-05-31 20:54:11.323182 [info] : srcDir: /root/Job/MyWebServer/resources/
+2022-05-31 20:54:11.323184 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2022-05-31 20:54:11.323187 [info] : ========== Server start ==========
+2022-05-31 20:54:19.675721 [info] : Client[19](0.0.0.0:0) in, userCount:1
+2022-05-31 20:54:19.675798 [info] : Client[19] in!
+2022-05-31 20:54:19.682821 [info] : Client[20](0.0.0.0:0) in, userCount:2
+2022-05-31 20:54:19.682859 [info] : Client[20] in!
+2022-05-31 20:54:19.686835 [debug]: [GET], [/index.html], [1.1]
+2022-05-31 20:54:19.686863 [debug]: /index.html
+2022-05-31 20:54:19.686890 [debug]: file path /root/Job/MyWebServer/resources//index.html
+2022-05-31 20:54:19.686908 [debug]: filesize:968, 2  to 1089
+2022-05-31 20:54:19.826747 [debug]: [GET], [/favicon.ico], [1.1]
+2022-05-31 20:54:19.826810 [debug]: /favicon.ico
+2022-05-31 20:54:19.826857 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:54:19.826872 [debug]: filesize:971, 2  to 1099
+2022-05-31 20:54:27.741721 [debug]: [GET], [/login.html], [1.1]
+2022-05-31 20:54:27.741792 [debug]: /login.html
+2022-05-31 20:54:27.741828 [debug]: file path /root/Job/MyWebServer/resources//login.html
+2022-05-31 20:54:27.741842 [debug]: filesize:1554, 2  to 1676
+2022-05-31 20:54:30.466170 [debug]: [GET], [/register.html], [1.1]
+2022-05-31 20:54:30.466231 [debug]: /register.html
+2022-05-31 20:54:30.466278 [debug]: file path /root/Job/MyWebServer/resources//register.html
+2022-05-31 20:54:30.466298 [debug]: filesize:1559, 2  to 1681
+2022-05-31 20:54:38.296229 [debug]: username = qwe
+2022-05-31 20:54:38.296293 [debug]: Tag:0
+2022-05-31 20:54:38.296299 [info] : Verify name:qwe pwd:123
+2022-05-31 20:54:38.296310 [debug]: SELECT username, password FROM user WHERE username='qwe' LIMIT 1
+2022-05-31 20:54:38.301220 [debug]: regirster!
+2022-05-31 20:54:38.301248 [debug]: INSERT INTO user(username, password) VALUES('qwe','123')
+2022-05-31 20:54:38.310182 [debug]: UserVerify success!!
+2022-05-31 20:54:38.310216 [debug]: Body:username=qwe&password=123, len:25
+2022-05-31 20:54:38.310222 [debug]: [POST], [/welcome.html], [1.1]
+2022-05-31 20:54:38.310225 [debug]: /welcome.html
+2022-05-31 20:54:38.310267 [debug]: file path /root/Job/MyWebServer/resources//welcome.html
+2022-05-31 20:54:38.310287 [debug]: filesize:969, 2  to 1090
+2022-05-31 20:54:38.310529 [error]: RequestLine Error
+2022-05-31 20:54:38.310566 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:54:38.310585 [debug]: filesize:971, 2  to 1062
+2022-05-31 20:54:38.310648 [info] : Client[19] quit!
+2022-05-31 20:54:38.310695 [info] : Client[19](0.0.0.0:0) quit, UserCount:1
+2022-05-31 20:54:41.493992 [debug]: [GET], [/login.html], [1.1]
+2022-05-31 20:54:41.494094 [debug]: /login.html
+2022-05-31 20:54:41.494122 [debug]: file path /root/Job/MyWebServer/resources//login.html
+2022-05-31 20:54:41.494142 [debug]: filesize:1554, 2  to 1676
+2022-05-31 20:54:41.539994 [info] : Client[19](0.0.0.0:0) in, userCount:2
+2022-05-31 20:54:41.540086 [info] : Client[19] in!
+2022-05-31 20:54:48.293858 [debug]: username = 1231223
+2022-05-31 20:54:48.293920 [debug]: Tag:1
+2022-05-31 20:54:48.293925 [info] : Verify name:1231223 pwd:21312321
+2022-05-31 20:54:48.293930 [debug]: SELECT username, password FROM user WHERE username='1231223' LIMIT 1
+2022-05-31 20:54:48.294359 [debug]: UserVerify success!!
+2022-05-31 20:54:48.294394 [debug]: Body:username=1231223&password=21312321, len:34
+2022-05-31 20:54:48.294399 [debug]: [POST], [/error.html], [1.1]
+2022-05-31 20:54:48.294402 [debug]: /error.html
+2022-05-31 20:54:48.294441 [debug]: file path /root/Job/MyWebServer/resources//error.html
+2022-05-31 20:54:48.294459 [debug]: filesize:955, 2  to 1076
+2022-05-31 20:54:48.294647 [error]: RequestLine Error
+2022-05-31 20:54:48.294668 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:54:48.294676 [debug]: filesize:971, 2  to 1062
+2022-05-31 20:54:48.294702 [info] : Client[20] quit!
+2022-05-31 20:54:48.294737 [info] : Client[20](0.0.0.0:0) quit, UserCount:1
+2022-05-31 20:54:50.805587 [debug]: [GET], [/login.html], [1.1]
+2022-05-31 20:54:50.805651 [debug]: /login.html
+2022-05-31 20:54:50.805681 [debug]: file path /root/Job/MyWebServer/resources//login.html
+2022-05-31 20:54:50.805703 [debug]: filesize:1554, 2  to 1676
+2022-05-31 20:54:50.852828 [info] : Client[20](0.0.0.0:0) in, userCount:2
+2022-05-31 20:54:50.852909 [info] : Client[20] in!
+2022-05-31 20:54:57.506616 [debug]: username = qwe
+2022-05-31 20:54:57.506679 [debug]: Tag:1
+2022-05-31 20:54:57.506684 [info] : Verify name:qwe pwd:123
+2022-05-31 20:54:57.506690 [debug]: SELECT username, password FROM user WHERE username='qwe' LIMIT 1
+2022-05-31 20:54:57.507149 [debug]: MYSQL ROW: qwe 123
+2022-05-31 20:54:57.507170 [debug]: UserVerify success!!
+2022-05-31 20:54:57.507174 [debug]: Body:username=qwe&password=123, len:25
+2022-05-31 20:54:57.507178 [debug]: [POST], [/welcome.html], [1.1]
+2022-05-31 20:54:57.507180 [debug]: /welcome.html
+2022-05-31 20:54:57.507218 [debug]: file path /root/Job/MyWebServer/resources//welcome.html
+2022-05-31 20:54:57.507233 [debug]: filesize:969, 2  to 1090
+2022-05-31 20:54:57.507433 [error]: RequestLine Error
+2022-05-31 20:54:57.507458 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:54:57.507467 [debug]: filesize:971, 2  to 1062
+2022-05-31 20:54:57.507500 [info] : Client[19] quit!
+2022-05-31 20:54:57.507542 [info] : Client[19](0.0.0.0:0) quit, UserCount:1
+2022-05-31 20:54:59.774171 [debug]: [GET], [/picture.html], [1.1]
+2022-05-31 20:54:59.774233 [debug]: /picture.html
+2022-05-31 20:54:59.774259 [debug]: file path /root/Job/MyWebServer/resources//picture.html
+2022-05-31 20:54:59.774280 [debug]: filesize:1849, 2  to 1971
+2022-05-31 20:54:59.863000 [info] : Client[19](0.0.0.0:0) in, userCount:2
+2022-05-31 20:54:59.863091 [info] : Client[19] in!
+2022-05-31 20:54:59.923165 [debug]: [GET], [/images/instagram-image1.jpg], [1.1]
+2022-05-31 20:54:59.923229 [debug]: /images/instagram-image1.jpg
+2022-05-31 20:54:59.923281 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:54:59.923299 [debug]: filesize:971, 2  to 1099
+2022-05-31 20:54:59.923815 [debug]: [GET], [/images/instagram-image2.jpg], [1.1]
+2022-05-31 20:54:59.923827 [debug]: /images/instagram-image2.jpg
+2022-05-31 20:54:59.923842 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:54:59.923851 [debug]: filesize:971, 2  to 1099
+2022-05-31 20:55:00.035029 [info] : Client[21](0.0.0.0:0) in, userCount:3
+2022-05-31 20:55:00.035109 [info] : Client[21] in!
+2022-05-31 20:55:00.035321 [info] : Client[22](0.0.0.0:0) in, userCount:4
+2022-05-31 20:55:00.035338 [info] : Client[22] in!
+2022-05-31 20:55:00.035652 [info] : Client[23](0.0.0.0:0) in, userCount:5
+2022-05-31 20:55:00.035670 [info] : Client[23] in!
+2022-05-31 20:55:00.075542 [debug]: [GET], [/images/instagram-image3.jpg], [1.1]
+2022-05-31 20:55:00.075615 [debug]: /images/instagram-image3.jpg
+2022-05-31 20:55:00.075650 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:55:00.075671 [debug]: filesize:971, 2  to 1099
+2022-05-31 20:55:00.076182 [debug]: [GET], [/images/instagram-image5.jpg], [1.1]
+2022-05-31 20:55:00.076196 [debug]: /images/instagram-image5.jpg
+2022-05-31 20:55:00.076210 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:55:00.076219 [debug]: filesize:971, 2  to 1099
+2022-05-31 20:55:00.076700 [debug]: [GET], [/images/instagram-image4.jpg], [1.1]
+2022-05-31 20:55:00.076708 [debug]: /images/instagram-image4.jpg
+2022-05-31 20:55:00.076720 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:55:00.076729 [debug]: filesize:971, 2  to 1099
+2022-05-31 20:55:02.105952 [debug]: [GET], [/video.html], [1.1]
+2022-05-31 20:55:02.106026 [debug]: /video.html
+2022-05-31 20:55:02.106079 [debug]: file path /root/Job/MyWebServer/resources//video.html
+2022-05-31 20:55:02.106103 [debug]: filesize:1239, 2  to 1361
+2022-05-31 20:55:02.396115 [debug]: [GET], [/video/xxx.mp4], [1.1]
+2022-05-31 20:55:02.396178 [debug]: /video/xxx.mp4
+2022-05-31 20:55:02.396232 [debug]: file path /root/Job/MyWebServer/resources//404.html
+2022-05-31 20:55:02.396254 [debug]: filesize:971, 2  to 1099
+2022-05-31 20:55:04.646067 [debug]: [GET], [/register.html], [1.1]
+2022-05-31 20:55:04.646127 [debug]: /register.html
+2022-05-31 20:55:04.646170 [debug]: file path /root/Job/MyWebServer/resources//register.html
+2022-05-31 20:55:04.646189 [debug]: filesize:1559, 2  to 1681
+2022-05-31 20:55:05.815912 [debug]: [GET], [/index.html], [1.1]
+2022-05-31 20:55:05.815975 [debug]: /index.html
+2022-05-31 20:55:05.816022 [debug]: file path /root/Job/MyWebServer/resources//index.html
+2022-05-31 20:55:05.816054 [debug]: filesize:968, 2  to 1089
+2022-05-31 20:55:15.312561 [info] : Client[20] quit!
+2022-05-31 20:55:15.312701 [info] : Client[20](0.0.0.0:0) quit, UserCount:4
+2022-05-31 20:55:15.312713 [info] : Client[19] quit!
+2022-05-31 20:55:15.312732 [info] : Client[19](0.0.0.0:0) quit, UserCount:3
+2022-05-31 20:55:15.315408 [info] : Client[23] quit!
+2022-05-31 20:55:15.315460 [info] : Client[23](0.0.0.0:0) quit, UserCount:2
+2022-05-31 20:55:15.335469 [info] : Client[21] quit!
+2022-05-31 20:55:15.335585 [info] : Client[21](0.0.0.0:0) quit, UserCount:1
